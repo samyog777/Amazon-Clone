@@ -208,14 +208,68 @@ span{
 }
 
 footer {
-    background-color: black;
-    height: 100px;
+    margin-top: 15px;
+}
+
+.foot1 {
+    background-color: #37475a;
+    height: 50px;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot2 {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+ul p{
+    font-size: 20px;
+    color: white;
+}
+
+.foot3 {
+    background-color: #0f1111;
+    color: white;
+    border-top: 1px solid white;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.foot1 {
-    font-size: 20px;
+.logo {
+    background-image: url(logo.jpg);
+    background-size: cover;
+    height: 50px;
+    width: 150px;
+}
+
+.foot4 {
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 25px ;
+}
+
+.fpage {
+    font-size: 0.7rem;
+}
+
+.copyright {
+    font-size: 0.7rem;
 }
